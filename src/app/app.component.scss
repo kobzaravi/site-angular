@@ -1,0 +1,60 @@
+h1{
+    color: rgb(31, 153, 132);
+   
+}
+h2{ color: darkcyan;
+    
+    
+}
+
+.container {
+    max-width: 1165px;
+    padding: 0 15px;
+    margin: 0 auto;
+    border: 2.5px solid #ccc;
+    background-color: whitesmoke;
+}
+
+@media (max-width:1200px){
+    .container {
+        max-width: 970px;
+    }
+}
+
+@media (max-width:992px){
+    .container {
+        max-width: 750px;
+    }
+}
+
+@media (max-width:767px){
+    .container {
+        max-width: none;
+    }
+}
+
+nav a{
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    margin-right: 3px;
+    text-decoration: none;
+    transition: all 0.5s;
+    color: gray;
+    font-size: 30px;
+}
+
+nav a:hover{
+    box-shadow: 0 6px 6px rgba(150, 191, 219, 0.15), 0 0 52px rgba(10,16,20,.12);
+}
+
+nav .active{
+    text-align: center ;
+    text-transform:capitalize;
+    background: lightgrey;
+    color: darkcyan;
+}
+
+button{
+    text-decoration: darkcyan ;
+}
